@@ -15,11 +15,6 @@
     src: url(fonts/Poppins-Bold.ttf);
 }
 
-:root{
-    --color: #FDA700;
-    --color2: 
-}
-
 *{
     margin: 0;
     padding: 0;
@@ -121,7 +116,7 @@ header > ul > li > a:hover::after{
 .text-home > h1{
     font-family: poppinsb;
     font-size: 40px;
-    color: var(--color);
+    color: #FDA700;
 }
 
 .text-home > p {
@@ -154,8 +149,8 @@ header > ul > li > a:hover::after{
     background-color: #ffbc37;
     margin-top: 20vh;
     padding-top: 70px;
-    padding-bottom: 120px;
-    height: 600px;
+    padding-bottom: 100px;
+    height: auto;
     text-align: left;
     padding-left: 20vh;
 }
@@ -170,6 +165,7 @@ header > ul > li > a:hover::after{
     padding-top: 30px;
     font-family: poppinsr;
     font-size: 19px;
+    text-align: justify;
 }
 
 #Amostra{
@@ -243,6 +239,7 @@ header > ul > li > a:hover::after{
     font-size: 25px;
     padding-top: 50px;
     padding-bottom: 10px;
+    text-align: justify;
 }
 
 #cta > p > a{
@@ -251,7 +248,6 @@ header > ul > li > a:hover::after{
     padding: 14px;
     color: #FDA700;
     transition-duration: 0.5s;
-    text-align: center;
 }
 
 #cta > p > a:hover{
