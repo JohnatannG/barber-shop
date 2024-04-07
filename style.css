@@ -312,6 +312,10 @@ header > ul > li > a:hover::after{
         text-align: center;
     }
     
+    .about > p{
+        text-align: justify;
+    }
+
     /*PRÉVIAS DO SOFTWARE*/
     #Amostra > h3{
         font-size: 20px;
@@ -328,7 +332,7 @@ header > ul > li > a:hover::after{
         padding: 0vh 0px 20px 0px;
         font-size: 15px;
         margin: 0 auto;
-        text-align: center;
+        text-align: justify;
     }
     
     .previas > img{
@@ -348,7 +352,7 @@ header > ul > li > a:hover::after{
         padding: 0vh 0px 20px 0px;
         font-size: 15px;
         margin: 0 auto;
-        text-align: center;
+        text-align: justify;
     }
     
     .previas2 > img{
