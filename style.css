@@ -367,6 +367,7 @@ header > ul > li > a:hover::after{
     
     #cta > p{
         font-size: 20px;
+        text-align: justify;
     }
     
     /*CONTATOS-FOOTER*/
