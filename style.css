@@ -272,5 +272,103 @@ header > ul > li > a:hover::after{
     padding-top: 70px;
     color: white;
     font-family: poppinsl;
+}
 
+
+@media screen and (max-width: 1030px){
+    .ScrollCima{
+        right: 3%;
+    }
+
+    /*header*/
+    .menu{
+        display: none;
+    }
+
+    /*HOME*/
+    .text-home > h1{
+        font-size: 0px;
+    }
+
+    .text-home > p {
+        margin-top: 15px;
+        text-align: center;
+        padding: 0px 10px 0px 10px;
+    }
+
+    .barber-home-svg{
+        display: none;
+    }
+
+    /*SOBRE NÓS*/
+    .about{
+        height: 1350px;
+        margin-top: 37vh;
+        padding: 100px 20px 0px 20px;
+    }
+
+    .about > h2{
+        font-size: 25px;
+        text-align: center;
+    }
+    
+    /*PRÉVIAS DO SOFTWARE*/
+    #Amostra > h3{
+        font-size: 20px;
+    }
+
+    .previas{
+        width: 100%;
+        display: block;
+        padding: 70px 10px 40px 10px;
+    }
+
+    .previas > p{
+        width: 300px;
+        padding: 0vh 0px 20px 0px;
+        font-size: 15px;
+        margin: 0 auto;
+        text-align: center;
+    }
+    
+    .previas > img{
+        height: 216px;
+    }
+    
+    .previas2{
+        width: 100%;
+        height: auto;
+        display: block;
+        padding: 40px 10px 70px 10px;
+        gap: 0px;
+    }
+    
+    .previas2 > p{
+        width: 315px;
+        padding: 0vh 0px 20px 0px;
+        font-size: 15px;
+        margin: 0 auto;
+        text-align: center;
+    }
+    
+    .previas2 > img{
+        height: 216px;
+    }
+
+    /*CTA*/
+    #cta{
+        padding: 0px 12px 0px 12px;
+        height: 700px;
+    }
+    
+    #cta > p{
+        font-size: 20px;
+    }
+    
+    /*CONTATOS-FOOTER*/
+    #contacts{
+        display: block;
+        height: auto;
+        padding: 0px 0px 50px 20px;
+    }
 }
