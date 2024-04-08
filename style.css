@@ -102,6 +102,9 @@ header > ul > li > a:hover::after{
     width: 100%;
 }
 
+.menu-mobile{
+    display: none;
+}
 .home-flex{
     display: flex;
     justify-content: space-around;
