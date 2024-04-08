@@ -315,6 +315,10 @@ header > ul > li > a:hover::after{
         padding-right: 0px;
     }
 
+    .menu-mobile.abrir-menu{
+        width: 70%;
+    }
+
     .menu-mobile > .menu-celular{
         text-align: right;
     }
