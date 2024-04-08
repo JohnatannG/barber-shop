@@ -1,11 +1,64 @@
 @charset "UTF-8";
 
+@font-face {
+    font-family: poppinsl;
+    src: url(fonts/Poppins-Light.ttf);
+}
+
+@font-face {
+    font-family: poppinsb;
+    src: url(fonts/Poppins-Bold.ttf);
+}
+
 *{
     padding: 0;
     margin: 0;
     box-sizing: border-box;
 }
 
-.acess{
+.container{
+    background-color: rgb(34, 34, 34);
     display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.centro{
+    display: flex;
+    height: 66%;
+    box-shadow: 10px 10px 10px #1a1a1a73;
+}
+
+.esquerda-login > img{
+    width: 45vw;
+    height: 66.7vh;
+}
+
+.card{
+    background-color: rgb(250, 183, 38);
+    width: 500px;
+    height: 66.7vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.card > h1{
+    font-family: poppinsb;
+}
+
+.card > .text{
+    display: flex;
+}
+
+.card > .text > label{
+    font-family: poppinsl;
+    display: flex;
+}
+
+.card > .text > input{
+    margin-top: 50px;
+    padding: 10px;
 }
