@@ -276,9 +276,62 @@ header > ul > li > a:hover::after{
         right: 3%;
     }
 
-    /*header*/
+    /*HEADER*/
     .menu{
         display: none;
+    }
+
+    /*MENU-MOBILE*/
+    .menu-mobile > .btn-fechar{
+        padding: 20px 5%;
+    }
+
+    .menu-mobile > .btn-fechar > img{
+        width: 50px;
+        height: 50px;
+        background-color: white;
+        border-radius: 100%;
+    }
+
+    header > .btn-abrir-menu > img{
+        background-color: #ffb41f;
+        margin-top: 20px;
+        width: 50px;
+        height: 50px;
+        padding: 3px;
+        border-radius: 10px;
+    }
+
+    .menu-mobile{
+        background-color: #1f1f1f;
+        height: 100vh;
+        width: 0%;
+        position: fixed;
+        top: 0;
+        right: 0;
+        padding-right: 0px;
+    }
+
+    .menu-mobile > .menu-celular{
+        text-align: right;
+    }
+
+    .menu-mobile > .menu-celular > li{
+        list-style: none;
+    }
+
+    .menu-mobile > .menu-celular > li > a{
+        color: white;
+        font-size: 22px;
+        text-decoration: none;
+        font-family: poppinsl;
+        padding: 30px 20px 30px 20px;
+        display: block;
+        transition-duration: 0.3s;
+    }
+
+    .menu-mobile > .menu-celular > li > a:hover{
+        background-color: #FDA700;
     }
 
     /*HOME*/
