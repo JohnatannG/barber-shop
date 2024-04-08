@@ -1,6 +1,10 @@
-let btnMenu = document.getElementById('btn-menu')
-let menu = document.getElementById('menu-mobile')
 
-btnMenu.addEventListener('click', ()=>{
-    menu.classList.add('abrir-menu')
-})
+function menuShow() {
+    let menuMobile = document.querySelector('.menu-mobile')
+    if (menuMobile.classList.contains('open')) {
+        menuMobile.classList.remove('open')
+        else{
+            menuMobile.classList.add(open)
+        }
+    }
+}

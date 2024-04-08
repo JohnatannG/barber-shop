@@ -19,9 +19,6 @@
         <header> 
             <img src="imagens/logo.png" alt="logo-tesoura" width="200px">
 
-            <div class="btn-abrir-menu" id="btn-menu">
-                <img src="imagens/menu-sharp.svg" alt="barra-menu">
-            </div>
             
             <ul class="menu">
                 <li><a href="#Sobre">Sobre nós</a></li>
@@ -29,11 +26,14 @@
                 <li><a href="#cta">Registre sua empresa</a></li>
                 <li><a href="#contacts">Contatos</a></li>
             </ul>
-
+            
+            <div class="btn-abrir-menu" id="abrir-menu">
+                <button onclick="menuShow"><img src="imagens/menu-sharp.svg" alt="barra-menu"></button>
+            </div>
             
             <div class="menu-mobile" id="menu-mobile">
                 <div class="btn-fechar">
-                    <img src="imagens/close-sharp.svg" alt="x">
+                    <button><img src="imagens/close-sharp.svg" alt="x"></button>
                 </div>
                 
                 <ul class="menu-celular">
@@ -125,5 +125,6 @@
                 </div>
             </div>
         </footer>
+        <script src="menu.js" defer></script>
 </body>
 </html>

@@ -289,19 +289,23 @@ header > ul > li > a:hover::after{
         padding: 20px 5%;
     }
 
-    .menu-mobile > .btn-fechar > img{
-        width: 50px;
-        height: 50px;
-        background-color: white;
-        border-radius: 100%;
+    header > .btn-abrir-menu > button{
+        margin-top: 15px;
+        background-color: #FDA700;
+        border: none;
+        cursor: pointer;
     }
 
-    header > .btn-abrir-menu > img{
-        background-color: #ffb41f;
-        margin-top: 20px;
+    .menu-mobile > .btn-fechar > button > img{
         width: 50px;
         height: 50px;
-        padding: 3px;
+        border-radius: 100%;
+
+    }
+
+    header > .btn-abrir-menu > button > img{
+        width: 50px;
+        height: 50px;
         border-radius: 10px;
     }
 
@@ -315,8 +319,8 @@ header > ul > li > a:hover::after{
         padding-right: 0px;
     }
 
-    .menu-mobile.abrir-menu{
-        width: 70%;
+    .menu-mobile.abra-menu{
+        width: 80%;
     }
 
     .menu-mobile > .menu-celular{
