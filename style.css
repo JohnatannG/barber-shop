@@ -318,13 +318,9 @@ header > nav > ul > li > a:hover::after{
     
     
     #nav.active > .menu{    
-        height: 80vh;
+        height: 90vh;
         visibility: visible;
         overflow-y: auto;
-    }
-    
-    .menu li{
-        margin-top: 20px;
     }
     
     .menu a{
