@@ -208,6 +208,8 @@ header > nav > ul > li > a:hover::after{
 .previas > img{
     height: 400px;
     border: 1px solid #ffbc37;
+    align-items: center;
+    justify-content: center;
 }
 
 .previas2{
@@ -287,7 +289,10 @@ header > nav > ul > li > a:hover::after{
     font-size: 18px;
 }
 
-@media screen and (max-width: 1030px){
+@media screen and (max-width: 1030px){}
+
+
+@media screen and (max-width: 480px){
     .ScrollCima{
         right: 3%;
     }
