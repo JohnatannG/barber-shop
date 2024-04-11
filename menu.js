@@ -6,3 +6,4 @@ function ToggleMenu() {
 }
 
 abrirmenu.addEventListener('click', ToggleMenu);
+abrirmenu.addEventListener('touchstart', ToggleMenu);
