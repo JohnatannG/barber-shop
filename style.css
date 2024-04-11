@@ -103,8 +103,6 @@ header > nav > ul > li > a:hover::after{
     display: none;
 }
 
-
-
 .menu-mobile{
     display: none;
 }
@@ -154,12 +152,13 @@ header > nav > ul > li > a:hover::after{
 
 .about{
     background-color: #ffbc37;
-    margin-top: 32vh;
-    padding-top: 70px;
+    margin-top: 25vh;
+    padding-top: 60px;
     padding-bottom: 100px;
     height: auto;
     text-align: left;
     padding-left: 20vh;
+    padding-right: 20vh;
 }
 
 .about > h2{
@@ -176,7 +175,7 @@ header > nav > ul > li > a:hover::after{
 }
 
 #Amostra{
-    height: 100px;
+    height: 17vh;
 }
 
 #Amostra > h3{
@@ -289,7 +288,51 @@ header > nav > ul > li > a:hover::after{
     font-size: 18px;
 }
 
+@media screen and (max-width: 1024px){
+    header > nav > ul{
+        gap: 50px;
+    }
+    
+    .about{
+        margin-top: 22vh;
+    }
 
+    #Amostra{
+        height: 12vh;
+        padding: 0px 20px 0px 20px;
+    }
+
+    #Amostra > h3{
+        font-size: 25px;
+    }
+
+    .previas > p{
+        width: 100vh;
+        padding-top: 25px;
+        font-size: 18px;
+    }
+
+    .previas > img{
+        height: 300px;
+    }
+
+    .previas2{
+        height: 430px;
+    }
+
+    .previas2 > p{
+        padding-top: 0px;
+        font-size: 18px;
+    }
+    
+    .previas2 > img{
+        height: 300px;
+    }
+
+    #cta > p {
+        font-size: 19px;
+    }
+}
 
 @media screen and (max-width: 480px){
     .ScrollCima{
@@ -312,7 +355,7 @@ header > nav > ul > li > a:hover::after{
         top: 70px;
         right: 0px;
         background-color: rgb(0, 0, 0);
-        transition: .4s;
+        transition: .6s;
         z-index: 1000;
         visibility: hidden;
         overflow-y: hidden;
