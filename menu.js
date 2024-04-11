@@ -3,7 +3,7 @@ const nav = document.getElementById('nav');
 
 function ToggleMenu() {
     nav.classList.toggle('active');
+
 }
 
 abrirmenu.addEventListener('click', ToggleMenu);
-abrirmenu.addEventListener('touchstart', ToggleMenu);
