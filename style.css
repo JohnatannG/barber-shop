@@ -298,14 +298,12 @@ header > nav > ul > li > a:hover::after{
     }
 
     /*menu*/
-    
-
     .menu{
         display: flex;
         flex-direction: column;
         position: absolute;
         margin-top: 21.7px;
-        width: 100%;
+        width: 70%;
         height: 0px;
         top: 70px;
         right: 0px;
