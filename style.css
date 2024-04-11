@@ -70,41 +70,45 @@ header > img{
     margin-left: 8px;
 }
 
-header > ul{
+header > nav > ul{
     display: flex;
     gap: 100px;
     padding-top: 30px;
-}
-
-header > ul > li{
     list-style-type: none;
 }
 
-header > ul > li > a{
+header > nav > ul > li > a{
     color: white;
     font-family: poppinsl;
     text-decoration: none;
     position: relative;
 }
 
-header > ul > li > a::after{
+header > nav > ul > li > a::after{
     content: " ";
     width: 0%;
     height: 2px;
-    background-color: var(--color);
+    background-color: #FDA700;
     position: absolute;
     bottom: 0;
     left: 0;
     transition: 0.3s ease-in-out;
 }
 
-header > ul > li > a:hover::after{
+header > nav > ul > li > a:hover::after{
     width: 100%;
 }
+
+#btn-mobile{
+    display: none;
+}
+
+
 
 .menu-mobile{
     display: none;
 }
+
 .home-flex{
     display: flex;
     justify-content: space-around;
@@ -279,72 +283,50 @@ header > ul > li > a:hover::after{
         right: 3%;
     }
 
-    /*HEADER*/
+    /*menu*/
+    
     .menu{
-        display: none;
+        display: block;
+        flex-direction: column;
+        position: absolute;
+        width: 100%;
+        height: 0px;
+        top: 70px;
+        right: 0px;
+        background-color: rgba(255, 255, 255, 0.842);
+        transition: .6s;
+        z-index: 1000;
+        visibility: hidden;
+        overflow-y: hidden;
     }
-
-    /*MENU-MOBILE*/
-    .menu-mobile > .btn-fechar{
-        padding: 20px 5%;
+    
+    
+    #nav.active > .menu{
+        height: calc(100vh - 70px);
+        visibility: visible;
+        overflow-y: auto;
     }
-
-    header > .btn-abrir-menu > button{
-        margin-top: 15px;
-        background-color: #FDA700;
+    
+    .menu li{
+        margin-top: 70px;
+    }
+    
+    .menu a{
+        color: black;
+        font-size: 20px;
+        margin-left: 45px;
+    }
+    
+    #btn-mobile{
+        display: flex;
+        margin-top: 28px;
+        padding: .5rem 1rem;
+        font-size: 1rem;
         border: none;
+        background-color: none;
         cursor: pointer;
     }
-
-    .menu-mobile > .btn-fechar > button > img{
-        width: 50px;
-        height: 50px;
-        border-radius: 100%;
-
-    }
-
-    header > .btn-abrir-menu > button > img{
-        width: 50px;
-        height: 50px;
-        border-radius: 10px;
-    }
-
-    .menu-mobile{
-        background-color: #1f1f1f;
-        height: 100vh;
-        width: 0%;
-        position: fixed;
-        top: 0;
-        right: 0;
-        padding-right: 0px;
-    }
-
-    .menu-mobile.abra-menu{
-        width: 80%;
-    }
-
-    .menu-mobile > .menu-celular{
-        text-align: right;
-    }
-
-    .menu-mobile > .menu-celular > li{
-        list-style: none;
-    }
-
-    .menu-mobile > .menu-celular > li > a{
-        color: white;
-        font-size: 22px;
-        text-decoration: none;
-        font-family: poppinsl;
-        padding: 30px 20px 30px 20px;
-        display: block;
-        transition-duration: 0.3s;
-    }
-
-    .menu-mobile > .menu-celular > li > a:hover{
-        background-color: #FDA700;
-    }
-
+    
     /*HOME*/
     .text-home > h1{
         font-size: 0px;
