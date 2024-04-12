@@ -35,7 +35,8 @@ header{
 header > h1{
     text-align: center;
     font-family: poppinsb;
-    padding: 50px 0px 90px 0px;
+    padding: 50px 0px 60px 0px;
+    color: rgb(255, 166, 0);
 }
 
 nav {
@@ -44,17 +45,22 @@ nav {
 }
 
 header > nav > ul > li{
-    font-family: poppinsr;
+    margin-top: 45px;
     list-style-type: none;
-    margin-top: 30px;
+}
+
+header > nav > ul > li > a{
+    color: white;
+    text-decoration: none;
+    font-family: poppinsr;
     padding: 15px;
     border-radius: 10px;
     cursor: pointer;
-    transition: 0.3s;
+    transition-duration: 0.2s;
 }
 
-header > nav > ul > li:hover{
-    background-color: rgb(252, 180, 47);
+header > nav > ul > li >a:hover{
+    background-color: rgb(255, 166, 0);
 }
 
 .principal{
@@ -71,17 +77,12 @@ header > nav > ul > li:hover{
 }
 
 .card{
-    margin: 50px 100px 100px 100px;
+    margin: 80px 100px 100px 100px;
 }
 
 .text{
     display: flex;
     flex-direction: column;
-}
-
-.card > h1{
-    color: #ffc34b;
-    font-family: poppinsb;
 }
 
 .card > .text{
@@ -104,11 +105,14 @@ header > nav > ul > li:hover{
 }
 
 .principal > button{
-    border-radius: 4px;
     padding: 10px;
     margin-left: 100px;
-    background-color: #ffc34b;
+    background-color: rgb(255, 166, 0);
     border: none;
     cursor: pointer;
+    transition-duration: .3s;
 }
 
+.principal > button:hover{
+    border-radius: 4px;
+}
