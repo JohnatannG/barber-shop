@@ -3,7 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="usuario.css">
+    <link rel="stylesheet" href="founder.css">
+    <script src="abrir-direita.js" defer></script>
     <title>Barber Shop</title>
 </head>
 <body>
@@ -12,14 +13,15 @@
             <h1>Barber Shop</h1>
             <nav>
                 <ul>
-                    <li><a href="#">Home</a></li>
-                    <li><a href="#">Clientes</a></li>
-                    <li><a href="#">Barbeiros</a></li>
-                    <li><a href="#">Agenda do mês</a></li>
+                    <li id="home"><a href="#">Home</a></li>
+                    <li id="Clientes"><a href="#">Clientes</a></li>
+                    <li id="Barbeiros"><a href="#">Barbeiros</a></li>
+                    <li id="Agenda do mês"><a href="#">Agenda do mês</a></li>
                 </ul>
             </nav>
         </header>
-        <div class="principal">
+
+        <div class="principal" id="home">
             <div class="flex-principal">
                 <div class="card">
                     <div class="text">
@@ -40,6 +42,154 @@
                 Concluido
             </button>
         </div>
+
+        <div class="secundario" id="Clientes">
+            <div class="flex-secundario">
+                <div class="clientes">
+                    <div class="flex2">
+                        <img src="imagens/pessoa.png" alt="pessoa" width="100px">
+                        <p>
+                            Johnatan Gabriel <br>
+                            horas: 18:00 <br>
+                            Pedido: corte/bigode
+                        </p>
+                    </div>
+                </div>
+                <div class="clientes">
+                    <div class="flex2">
+                        <img src="imagens/pessoa.png" alt="pessoa" width="100px">
+                        <p>
+                            Johnatan Gabriel <br>
+                            horas: 18:00 <br>
+                            Pedido: corte/bigode
+                        </p>
+                    </div>
+                </div>
+
+                <div class="clientes">
+                    <div class="flex2">
+                        <img src="imagens/pessoa.png" alt="pessoa" width="100px">
+                        <p>
+                            Johnatan Gabriel <br>
+                            horas: 18:00 <br>
+                            Pedido: corte/bigode
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="terceiro" id="Barbeiros">
+            <div class="flex-terceiro">
+                <h1>Barbeiros Disponíveis:</h1>
+                <div class="barbeiros">
+                    <div class="barber">
+                        <img src="imagens/pessoa1.jpg" alt="barbeiros" width="220px">
+                        <p>Márcio Barbosa</p>
+                    </div>
+                    <div class="barber">
+                        <img src="imagens/pessoa2.jpg" alt="barbeiros" width="220px">
+                        <p>Anderson</p>
+                    </div>
+                    <div class="barber">
+                        <img src="imagens/pessoa3.jpg" alt="barbeiros" width="220px">
+                        <p>Adair Martinez</p>
+                    </div>
+                    <div class="barber">
+                        <img src="imagens/pessoa4.jpg" alt="barbeiros" width="220px">
+                        <p>Pedro Alvarez</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="Quarto" id="Agenda">
+            <div class="barbeiro1">
+                <div class="perfil-barber1">
+                    <img src="imagens/pessoa1.jpg" alt="" width="200px">
+                    <p>Márcio Barbosa</p>
+                </div>
+                <div class="horarios">
+                    <h2>09:00 - 09:40</h2>
+                    <p>
+                        Cliente: xxxxxxxx <br>
+                        Serviço: xxxxxxxx
+                    </p>
+                </div>
+                <div class="horarios">
+                    <h2>09:50 - 10:20</h2>
+                    <p>
+                        Cliente: xxxxxxxx <br>
+                        Serviço: xxxxxxxx
+                    </p>
+                </div>
+                <div class="horarios">
+                    <h2>10:30:00 - 10:50</h2>
+                    <p>
+                        Cliente: xxxxxxxx <br>
+                        Serviço: xxxxxxxx
+                    </p>
+                </div>
+            </div>
+
+            <div class="barbeiro2">
+                <div class="perfil-barber1">
+                    <img src="imagens/pessoa2.jpg" alt="" width="200px">
+                    <p>Anderson</p>
+                </div>
+                <div class="horarios">
+                    <h2>09:00 - 09:40</h2>
+                    <p>
+                        Cliente: xxxxxxxx <br>
+                        Serviço: xxxxxxxx
+                    </p>
+                </div>
+                <div class="horarios">
+                    <h2>09:50 - 10:20</h2>
+                    <p>
+                        Cliente: xxxxxxxx <br>
+                        Serviço: xxxxxxxx
+                    </p>
+                </div>
+                <div class="horarios">
+                    <h2>10:30:00 - 10:50</h2>
+                    <p>
+                        Cliente: xxxxxxxx <br>
+                        Serviço: xxxxxxxx
+                    </p>
+                </div>
+            </div>
+
+            <div class="barbeiro3">
+                <div class="perfil-barber1">
+                    <img src="imagens/pessoa3.jpg" alt="" width="200px">
+                    <p>Adair Martinez</p>
+                </div>
+                <div class="horarios">
+                    <h2>09:00 - 09:40</h2>
+                    <p>
+                        Cliente: xxxxxxxx <br>
+                        Serviço: xxxxxxxx
+                    </p>
+                </div>
+                <div class="horarios">
+                    <h2>09:50 - 10:20</h2>
+                    <p>
+                        Cliente: xxxxxxxx <br>
+                        Serviço: xxxxxxxx
+                    </p>
+                </div>
+                <div class="horarios">
+                    <h2>10:30:00 - 10:50</h2>
+                    <p>
+                        Cliente: xxxxxxxx <br>
+                        Serviço: xxxxxxxx
+                    </p>
+                </div>
+            </div>
+
+        </div>
     </div>
+
 </body>
 </html>
