@@ -35,8 +35,26 @@
     box-shadow: 10px 10px 10px #1a1a1a73;
 }
 
+.esquerda-login{
+    background-color: #FDA700;
+    width: 190%;
+    padding: 30px;
+    border-radius: 10px 0px 0px 10px;
+}
+
+.esquerda-login > h1{
+    font-family: poppinsb;
+    text-align: center;
+    margin-bottom: 4rem;
+}
+
+.esquerda-login > p{
+    font-family: poppinsr;
+    font-size: 20px;
+}
+
 .card{
-    border-radius: 10px 10px 10px 10px;
+    border-radius: 0px 10px 10px 0px;
     background-color: black;
     width: 450px;
     height: 90vh;
