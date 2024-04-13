@@ -70,11 +70,11 @@
 
 .card > .text > input{
     align-items: center;
-    background-color: rgb(177, 177, 177);
+    background-color: #7e7e7e;
     width: 100%;
     border: none;
     outline: none;
-    border-radius: 10px;
+    border-radius: 5px;
     padding: 13px;
     box-shadow: 0px 5px 7px rgba(0, 0, 0, 0.205);
     font-size: 15px;
