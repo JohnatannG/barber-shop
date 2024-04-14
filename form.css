@@ -19,123 +19,115 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    text-decoration: none;
 }
 
 .container{
-    background-color: rgb(34, 34, 34);
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    background-color: #2C2C2C;
     height: 100vh;
 }
 
-.centro{
+.flex{
     display: flex;
-    height: 90%;
-    box-shadow: 10px 10px 10px #1a1a1a73;
+    padding: 0px 10% 0px 10%;
+    justify-content: center;
 }
 
-.esquerda-login{
-    background-color: #FDA700;
-    width: 190%;
-    padding: 30px;
-    border-radius: 10px 0px 0px 10px;
-}
-
-.esquerda-login > h1{
+h1{
+    color: white;
     font-family: poppinsb;
     text-align: center;
-    margin-bottom: 4rem;
+    padding: 20px 0px 10px 0px;
 }
 
-.esquerda-login > p{
-    font-family: poppinsr;
-    font-size: 20px;
-}
-
-.card{
-    border-radius: 0px 10px 10px 0px;
-    background-color: black;
-    width: 450px;
-    height: 90vh;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-}
-
-.card > h1{
-    text-transform: uppercase;
-    font-family: poppinsb;
-    color: #FDA700;
-    font-size: 20px;
-    margin-top: 12px;
-}
-
-.card > p{
-    font-family: poppinsl;
-    font-size: 15px;
-    color: #FDA700;
-    margin-bottom: 40px;
-}
-
-.card > .text{
-    width: 70%;
-    display: flex;
-    flex-direction: column;
-    margin-top: 10px;
-}
-
-.card > .text > input{
-    align-items: center;
-    background-color: #7e7e7e;
+.esquerda{
+    background-color: #FDA700;
     width: 100%;
+    max-width: 45%;
+    border-radius: 20px 0px 0px 20px;
+    height: 70vh;
+    padding: 0px 40px;
+}
+
+.esquerda > h2{
+    font-family: poppinsb;
+    font-size: 35px;
+    text-align: center;
+    padding: 35px 0px 0px 0px;
+}
+
+.esquerda > p{
+    padding: 20px 0px;
+    text-align: justify;
+    font-family: poppinsr;
+    font-size: 18px;
+}
+
+.direita{
+    background-color: #F2F2F2;
+    width: 100%;
+    max-width: 40%;
+    border-radius: 0px 20px 20px 0px;
+    height: 70vh;
+    padding: 0px 80px;
+}
+
+.direita > .form{
+    padding: 50px 0px 0px 0px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.form > .text{
+    display: flex;
+    flex-direction: column;
+    font-family: poppinsr;
+    font-size: 14px;
+}
+
+.form > .text > input{
+    padding: 9px;
     border: none;
+    width: 100%;
     outline: none;
-    border-radius: 5px;
-    padding: 13px;
-    box-shadow: 0px 5px 7px rgba(0, 0, 0, 0.205);
-    font-size: 15px;
-    box-sizing: border-box;
+    background-color: #D9D9D9;
 }
 
-.card > .text > label{
-    color: white;
+.cadastro{
+    display: flex;
+    justify-content: center;
+}
+
+.cadastro > p{
+    background-color: #FDA700;
+    margin-top: 20px;
+    text-align: center;
     font-family: poppinsr;
-    margin-bottom: 10px;
-    font-size: 13px;
-}
-
-.card > .text > input::placeholder{
-    font-family: poppinsr;
-}
-
-.card > .entrar > button{
-    cursor: pointer;
-    margin-top: 15px;
     padding: 10px;
-    font-size: 20px;
-    background-color: transparent;
-    border: none;
-    text-decoration: underline;
+    width: 100%;
+    max-width: 50%;
+    border-radius: 50px;
+}
+
+
+p > a{
+    color: black;
+}
+
+.logar{
+    display: flex;
+    justify-content: center;   
+}
+
+.logar > p{
+    text-align: center;
     font-family: poppinsr;
+    width: 100%;
+    max-width: 50%;
+    border-radius: 50px;
 }
 
-.card > .entrar > button > a{
-    transition: 0.3s;
-    color: white;
-}
-
-.card > .entrar > button > a:hover{
-    color: #FDA700;
-}
-
-@media screen and (max-width: 980px){
-    .esquerda-login > img{
-        display: none;
-    }
-
-    .card{
-        border-radius: 10px 10px 10px 10px;
-    }
+.logar > p > a{
+    text-decoration: underline;
 }

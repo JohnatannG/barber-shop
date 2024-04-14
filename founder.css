@@ -124,14 +124,13 @@ main{
 
 .card > .text{
     color: white;
-    padding-top: 2%;
-    margin-top: 1%;
+    margin-top: 5%;
 }
 
 .card > .text > p > a{
     color: rgb(0, 0, 0);
     padding: 10px;
-    background-color: rgb(229, 229, 229);
+    background-color: rgb(255, 255, 255);
     transition: .3s;
 }
 
@@ -146,8 +145,9 @@ main{
 }
 
 .card > .text > p{
-    font-family: poppinsl;
+    font-family: poppinsr;
     text-align: justify;
+    font-size: 15px;
 }
 
 .secundario{
@@ -209,7 +209,7 @@ main{
 .flex-terceiro > p > a{
     color: rgb(0, 0, 0);
     padding: 10px;
-    background-color: rgb(229, 229, 229);
+    background-color: rgb(255, 255, 255);
     transition: .5s;
 }
 
