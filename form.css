@@ -68,7 +68,6 @@ h1{
     width: 100%;
     max-width: 40%;
     border-radius: 0px 20px 20px 0px;
-    height: 70vh;
     padding: 0px 80px;
 }
 
@@ -104,10 +103,11 @@ h1{
     margin-top: 20px;
     text-align: center;
     font-family: poppinsr;
-    padding: 10px;
+    padding: 6px;
     width: 100%;
     max-width: 50%;
     border-radius: 50px;
+    font-size: 14px;
 }
 
 
@@ -126,8 +126,56 @@ p > a{
     width: 100%;
     max-width: 50%;
     border-radius: 50px;
+    font-size: 10px;
 }
 
 .logar > p > a{
     text-decoration: underline;
+}
+
+@media (max-width: 1024px){
+    h1{
+        font-size: 25px;
+        padding-top: 3rem;
+
+    }
+
+    .esquerda{
+        display: none;
+    }
+
+    .direita{
+        border-radius: 20px 20px 20px 20px;
+        padding: 0px 20px;
+    }
+}
+
+@media (max-width: 780px){
+    h1{
+        font-size: 20px;
+    }
+    .direita{
+        background-color: #F2F2F2;
+        width: 140vw;
+        border-radius: 20px 20px 20px 20px;
+        padding: 0px 20px;
+    }
+}
+
+@media (max-width: 390px){
+    h1{
+        display: none;
+    }
+
+    .flex{
+        height: 100vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin: 0 auto;
+        width: 215%;
+    }
+    .direita{
+        width: 300px;
+    }
 }
