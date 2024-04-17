@@ -395,10 +395,6 @@ main{
        display: none;
     }
 
-    .flex-terceiro > .barbeiros {
-        max-width: none;
-    }
-
     .flex-terceiro > h1{
         margin: 80px 0px 20px 0px;
     }
@@ -408,9 +404,7 @@ main{
     }
 
     .Quarto{
-        padding: 90px 10px;
-        gap: 10px;
-        justify-content: space-around;
+        justify-content: space-evenly;
     }
 
     .Quarto > .barber-mobile1{
