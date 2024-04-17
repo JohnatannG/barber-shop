@@ -305,7 +305,7 @@ header > nav > ul > li > a:hover::after{
     }
     
     .about{
-        margin-top: 22vh;
+        margin-top: 11vh;
     }
 
     #Amostra{
@@ -345,7 +345,7 @@ header > nav > ul > li > a:hover::after{
     }
 }
 
-@media screen and (max-width: 480px){
+@media screen and (max-width: 640px){
     .ScrollCima{
         right: 3%;
     }

@@ -64,8 +64,10 @@ nav > ul > li{
 }
 
 nav > ul > li > img{
+    width: 25px;
     justify-content: center;
     align-items: center;
+    height: 25px;
 }
 
 nav > ul > li > a{
@@ -217,6 +219,16 @@ main{
     border-radius: 8px;
 }
 
+.barber-mobile > p{
+    background-color: #282828;
+    color: white;
+    font-family: poppinsl;
+    text-align: justify;
+    padding: 5px 10px;
+    font-size: 14px;
+    height: 41.7vh;
+}
+
 .flex-terceiro > .barbeiros{
     display: flex;
     gap: 20px;
@@ -249,6 +261,7 @@ main{
     justify-content: space-around;
 }
 
+
 .perfil-barber1 > p{
     background-color: #fc9630;
     font-family: poppinsr;
@@ -280,12 +293,42 @@ main{
     font-family: poppinsl;
 }
 
+.barbeiro3-mobile > .horarios{
+    background-color: rgb(57, 57, 57);
+    color: white;
+    margin-top: 20px;
+    padding: 15px;
+    font-family: poppinsl;
+}
+
 .horarios > p{
     margin-top: 5px;
     font-size: 14px;
 }
 
-@media (max-width: 480px){
+@media (max-width: 1024px){
+    header{
+        width: 23vw;
+    }
+
+    .principal{
+        height: 120vh;
+    }
+
+    .flex-terceiro > .barbeiros > .barber-mobile {
+        display: none;
+    }
+
+    .Quarto{
+        height: 135vh;
+    }
+
+    .barbeiro3-mobile{
+        display: none;
+    }
+}
+
+@media screen and (max-width: 640px){
     header{
     background-color: rgb(28, 28, 28);
     width: 100vw;
@@ -310,24 +353,32 @@ main{
         margin: 1.5rem 0px 0px 10px;
     }
 
+    .text{
+        margin: 0px 30px 0px 30px;
+    }
+    
+    .principal{
+        height: 130vh;
+    }
+
     .flexcolum{
         padding-top: 4.4rem;
         padding-left: 0%;
         width: 100vw;
     }
 
-    .principal{
-        height: 155vh;
-    }
     .flexcolum .terceiro{
         display: flex;
-        padding-left: 0.5rem;
-        padding-bottom: 20px;
-        height: 125vh;
+        height: 140vh;
+        padding: 0px 30px 0px 30px;
     }
 
     .flex-terceiro > h1{
         margin: 80px 0px 20px 0px;
+    }
+
+    .flex-terceiro > .barbeiros img {
+        width: 180px;
     }
 
     .Quarto{

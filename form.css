@@ -162,20 +162,17 @@ p > a{
     }
 }
 
-@media (max-width: 390px){
-    h1{
-        display: none;
-    }
-
+@media (max-width: 640px){
     .flex{
-        height: 100vh;
+        height: auto;
         display: flex;
         flex-direction: column;
         justify-content: center;
-        margin: 0 auto;
-        width: 215%;
+        align-items: center;
+        width: auto;
     }
     .direita{
-        width: 300px;
+        width: 100%;
+        max-width: 370px;
     }
 }
