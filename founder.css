@@ -190,7 +190,7 @@ main{
     display: flex;
     padding-left: 4rem;
     width: 100%;
-    height: 110vh;
+    height: 120vh;
     overflow-y: hidden;
     background-color: rgb(33, 33, 33);
     border-bottom: 4px solid #fc9630;
