@@ -387,7 +387,7 @@ main{
 
     .flexcolum .terceiro{
         display: flex;
-        height: 125vh;
+        height: 135vh;
         padding: 0px 20px 0px 20px;
         width: 100%;
     }
@@ -396,9 +396,12 @@ main{
        display: none;
     }
 
-    .flex-terceiro > .barbeiros img {
-        width: 163px;
-        height: 163px;
+    .flex-terceiro > .barbeiros{
+        display: flex;
+        gap: 20px;
+        flex-direction: column;
+        width: 100%;
+        max-width: 400px;
     }
 
     .Quarto{
