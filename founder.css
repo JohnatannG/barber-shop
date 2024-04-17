@@ -229,6 +229,16 @@ main{
     height: 41.7vh;
 }
 
+.barber-mobile1 > p{
+    background-color: #282828;
+    color: white;
+    font-family: poppinsl;
+    text-align: justify;
+    padding: 5px 10px;
+    font-size: 14px;
+    height: 41.7vh;
+}
+
 .flex-terceiro > .barbeiros{
     display: flex;
     gap: 20px;
@@ -369,8 +379,17 @@ main{
 
     .flexcolum .terceiro{
         display: flex;
-        height: 140vh;
+        height: 125vh;
         padding: 0px 30px 0px 30px;
+        width: 100%;
+    }
+
+    .flexcolum .terceiro .barber-mobile1{
+       display: none;
+    }
+
+    .flex-terceiro > .barbeiros {
+        max-width: none;
     }
 
     .flex-terceiro > h1{
@@ -385,5 +404,9 @@ main{
         padding: 90px 10px;
         gap: 10px;
         justify-content: space-around;
+    }
+
+    .Quarto > .barber-mobile1{
+        display: none;
     }
 }
