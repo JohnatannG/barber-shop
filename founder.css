@@ -364,10 +364,11 @@ main{
     nav > ul{
         display: flex;
         justify-content: space-around;
+        font-size: 12px;
     }
 
     nav > ul > li{
-        margin: 1.5rem 0px 0px 10px;
+        margin: 1.5rem 0px 0px 0px;
     }
 
     .text{
@@ -375,7 +376,7 @@ main{
     }
     
     .principal{
-        height: 130vh;
+        height: 115vh;
     }
 
     .flexcolum{
@@ -387,7 +388,7 @@ main{
     .flexcolum .terceiro{
         display: flex;
         height: 125vh;
-        padding: 0px 30px 0px 30px;
+        padding: 0px 20px 0px 20px;
         width: 100%;
     }
 
@@ -395,16 +396,28 @@ main{
        display: none;
     }
 
-    .flex-terceiro > h1{
-        margin: 80px 0px 20px 0px;
-    }
-
     .flex-terceiro > .barbeiros img {
-        width: 180px;
+        width: 163px;
+        height: 163px;
     }
 
     .Quarto{
-        justify-content: space-evenly;
+    background-color: rgb(33, 33, 33);
+    height: 200vh;
+    overflow-y: none;
+    display: flex;
+    flex-direction: column;
+    padding: 0px 20px;
+    gap: 0px;
+    }
+
+    .Quarto > .barbeiro2{
+        margin-bottom: 155px;
+    }
+
+
+    .perfil-barber1 > p{
+        width: 57%;
     }
 
     .Quarto > .barber-mobile1{
